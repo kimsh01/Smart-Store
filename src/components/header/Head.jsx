@@ -7,21 +7,21 @@ const Head = () => {
                 <div className='head-left'>
                     <span>
                         <i className="fa-solid fa-phone"></i> 
-                        <lable>+88012 3457 7894</lable>
+                        <label>+88012 3457 7894</label>
                     </span> 
                     <span>
                         <i className="fa-regular fa-envelope"></i>
-                        <lable>example@gmail.com</lable>
+                        <label>example@gmail.com</label>
                     </span>
                 </div>
 
                 <div className='head-right'>
-                    <lable>Theme FAQ's</lable>
-                    <lable>Need Helps</lable>
+                    <label className="head-lable">Theme FAQ's</label>
+                    <label className="head-lable">Need Helps</label>
                     <img src='' alt=''></img>
-                    <lable>EN</lable>
+                    <label className="head-lable">EN</label>
                     <img src='' alt=''></img>
-                    <lable>USD</lable>
+                    <label className="head-lable">USD</label>
                 </div>
            </div>
 

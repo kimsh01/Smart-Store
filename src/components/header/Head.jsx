@@ -16,12 +16,12 @@ const Head = () => {
                 </div>
 
                 <div className='head-right'>
-                    <label className="head-lable">Theme FAQ's</label>
-                    <label className="head-lable">Need Helps</label>
+                    <label className="head-label">Theme FAQ's</label>
+                    <label className="head-label">Need Helps</label>
                     <img src='' alt=''></img>
-                    <label className="head-lable">EN</label>
+                    <label className="head-label">EN</label>
                     <img src='' alt=''></img>
-                    <label className="head-lable">USD</label>
+                    <label className="head-label">USD</label>
                 </div>
            </div>
 

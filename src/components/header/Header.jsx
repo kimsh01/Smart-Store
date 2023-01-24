@@ -7,12 +7,12 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <>
+        <div className='head-height'>
             <Head />
             <Search />
             <Navbar />
             
-        </>
+        </div>
     );
 };
 

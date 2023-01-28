@@ -18,10 +18,9 @@ const Head = () => {
                 <div className='head-right'>
                     <label className="head-label">Theme FAQ's</label>
                     <label className="head-label">Need Helps</label>
-                    <img src='' alt=''></img>
-                    <label className="head-label">EN</label>
-                    <img src='' alt=''></img>
-                    <label className="head-label">USD</label>
+                    <label className="head-label"><span>🏳️‍⚧️</span>EN</label>
+                    <label className="head-label"><span>🏳️‍⚧️</span>USD</label>
+                    
                 </div>
            </div>
 

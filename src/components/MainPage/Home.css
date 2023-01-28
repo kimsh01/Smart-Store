@@ -1,0 +1,53 @@
+.container{
+    
+}
+
+/* --------------category--------------- */
+
+
+.category{
+ width: 20%;
+ box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+ height: 510px;
+ padding: 15px 0;
+ border-radius: 5px;
+ margin-left: 76px; 
+ margin-top: 30px;
+}
+.category img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+.category span{
+    margin-bottom: -10px;
+    margin: 10px 20px;
+    text-transform: capitalize;
+    position: absolute;
+}
+.category .box{
+    transition: 0.5s;
+    padding: 0 20px;
+}
+.category .box:hover{
+    background-color: #ffe1ef;
+    cursor: pointer;
+}
+
+/* -----------Slide.Card---------------- */
+
+.box h1{
+        margin-left: 50px;
+}
+.box p{
+    margin-left: 50px;
+}
+.box button{
+    margin-left: 50px;
+}
+
+
+.right img{
+    align-content: flex-end;
+}

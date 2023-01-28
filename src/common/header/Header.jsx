@@ -5,11 +5,11 @@ import Search from './Search';
 import './Header.css';
 
 
-const Header = () => {
+const Header = ({ CartItem }) => {
     return (
         <div className='head-height'>
             <Head />
-            <Search />
+            <Search CartItem={CartItem}/>
             <Navbar />
             
         </div>

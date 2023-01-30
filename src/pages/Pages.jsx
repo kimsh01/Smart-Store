@@ -5,7 +5,6 @@ const Pages = () => {
     return (
         <>
             <Home />
-        
         </>
     );
 };

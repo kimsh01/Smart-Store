@@ -36,6 +36,9 @@
 }
 
 /* -----------Slide.Card---------------- */
+.contentWidth{
+    width: 77%;
+}
 
 .box h1{
         margin-left: 50px;
@@ -47,12 +50,40 @@
     margin-left: 50px;
 }
 
-
-.box_img{
-    margin-right: 500px;
+.left h1{
+    font-size: 40px;
 }
+
 .right img{
     position: relative;
-    left: 670px;
+    right: 770px;
+    top: 160px;
+}
+
+.btn-primary{
+    background-color: #e94560;
+    padding: 13px 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+  
+}
+.top{
+    margin-top: 80px;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.homeSlide .box{
+    display: flex;
+}
+.homeSlide .box .left{
+    width: 70%;
+}
+.homeSlide .box .right{
+    width: 30%;
 }

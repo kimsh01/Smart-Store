@@ -3,3 +3,24 @@ button {
     outline: none;
     background-color: none;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .background {
+    background: #f6f9fc;
+    padding: 50px 0;
+  }
+
+  .f_flex {
+    display: flex;
+  }
+  .heading i{
+    color: #e94560;
+    margin: 10px;
+  }

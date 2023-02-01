@@ -89,6 +89,7 @@
     width: auto;
     height: auto;
     display: flex;
+    margin-left: -3px;
 }
 .container span h1{
     font-style: italic;
@@ -101,12 +102,13 @@
 .search-box{
     display: flex;
     justify-content: center;
-    width: 57%;
+    width: 100%;
     height: 40px;
     border: 2px solid rgba(0, 0, 0, 0.1);
     /*padding: 10px;*/
     margin-right: 330px;
     margin-top: 15px;
+    margin-left: 180px;
 }
 .search-box i {
     width: 5%;
@@ -139,6 +141,9 @@
     display: flex;
     margin-right: 70px;
     margin-top: -80px;
+  }
+  .cart-box i{
+    margin-right: 20px;
   }
 
 .qudtls{

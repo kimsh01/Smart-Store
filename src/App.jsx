@@ -5,8 +5,11 @@ import Cart from './common/Cart/Cart';
 import Header from './common/header/Header';
 import Pages from '../src/pages/Pages';
 import Footer from './common/footer/Footer';
+import Data from '../src/components/flashDeals/Data';
 
 function App() {
+  const {productItem} = Data
+
   const [CartItem, setCartItem] = useState([])
 
 
@@ -14,7 +17,7 @@ function App() {
     <>
       <Header CartItem={CartItem} />
       <Routes>
-        <Route path='/' element={<Pages />} exact/>
+        <Route path='/' element={<Pages productItem = {productItem} />} exact/>
         <Route path='/cart' element={ <Cart CartItem={CartItem} /> } exact />
       </Routes>
       {/* <Footer /> */}
